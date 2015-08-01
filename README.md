@@ -1,0 +1,3 @@
+# TextFileReader
+
+The app launches but isnt displaying the .txt file content...
