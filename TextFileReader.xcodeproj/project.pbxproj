@@ -13,6 +13,8 @@
 		056451DF1B6CBF7C003BB435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056451DE1B6CBF7C003BB435 /* Images.xcassets */; };
 		056451E21B6CBF7C003BB435 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 056451E01B6CBF7C003BB435 /* LaunchScreen.xib */; };
 		056451EE1B6CBF7C003BB435 /* TextFileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056451ED1B6CBF7C003BB435 /* TextFileReaderTests.swift */; };
+		056452041B6CC53F003BB435 /* TextFile in Resources */ = {isa = PBXBuildFile; fileRef = 056452031B6CC53F003BB435 /* TextFile */; };
+		056452051B6CC53F003BB435 /* TextFile in Resources */ = {isa = PBXBuildFile; fileRef = 056452031B6CC53F003BB435 /* TextFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		056451E71B6CBF7C003BB435 /* TextFileReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFileReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		056451EC1B6CBF7C003BB435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		056451ED1B6CBF7C003BB435 /* TextFileReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFileReaderTests.swift; sourceTree = "<group>"; };
+		056452031B6CC53F003BB435 /* TextFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TextFile; path = ../../TextFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		056451C91B6CBF7C003BB435 = {
 			isa = PBXGroup;
 			children = (
+				056452031B6CC53F003BB435 /* TextFile */,
 				056451D41B6CBF7C003BB435 /* TextFileReader */,
 				056451EA1B6CBF7C003BB435 /* TextFileReaderTests */,
 				056451D31B6CBF7C003BB435 /* Products */,
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				056451DD1B6CBF7C003BB435 /* Main.storyboard in Resources */,
+				056452041B6CC53F003BB435 /* TextFile in Resources */,
 				056451E21B6CBF7C003BB435 /* LaunchScreen.xib in Resources */,
 				056451DF1B6CBF7C003BB435 /* Images.xcassets in Resources */,
 			);
@@ -202,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056452051B6CC53F003BB435 /* TextFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +417,7 @@
 				056451F31B6CBF7C003BB435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		056451F41B6CBF7C003BB435 /* Build configuration list for PBXNativeTarget "TextFileReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				056451F61B6CBF7C003BB435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
